@@ -1,27 +1,28 @@
-import logo from './logo.svg';
-import { Provider } from "@/components/ui/provider"
-import './App.css';
+
+import Navbar from "./components/Navbar";
+import Hero from "./sections/Hero";
+import Services from "./sections/Services";
+import Pricing from "./sections/Pricing";
+import Gallery from "./sections/Gallery";
+import Contact from "./sections/Contact";
+import Footer from "./components/Footer";
+import theme from "./theme";
+import { Container } from '@chakra-ui/react';
+
+
 
 function App() {
   return (
-    <Provider>
-      <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-    </Provider>
+   <> 
+    <Navbar />
+<Hero />
+<Services/>
+<Pricing />
+<Gallery />
+<Contact />
+<Footer />
+   </>
+  
   );
 }
 
