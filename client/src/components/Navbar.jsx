@@ -8,6 +8,11 @@ bg="black"
 color="gold.500"
 px={8}
 py={4}
+  bgImage="url('/images/luxury-bg.jpg')"
+  bgSize="cover"
+  bgPosition="center"
+  bgRepeat="no-repeat"
+
 align="center"
 justify="space-between"
 boxShadow="lg"
