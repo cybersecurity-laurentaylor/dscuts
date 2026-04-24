@@ -1,5 +1,8 @@
 import { createSystem, defaultConfig } from "@chakra-ui/react"
-
+import "@fontsource/inter/400.css";
+import "@fontsource/inter/600.css";
+import "@fontsource/inter/700.css";
+import "@fontsource/allura/400.css";
 export const system = createSystem(defaultConfig,{
 theme: {
     tokens: {
@@ -18,11 +21,35 @@ gold: {
 },
 },
 fonts: {
-heading: "Inter, sans-serif",
-body: "Inter, sans-serif",
+heading: {value: "Allura, cursive"},
+body: {value: "Inter, sans-serif"},
 },
     }
 }
 });
 
 
+// import { createSystem, defineConfig, defineTokens } from "@chakra-ui/react";
+// import "@fontsource/inter/400.css";
+// import "@fontsource/inter/600.css";
+// import "@fontsource/inter/700.css";
+
+// const tokens = defineTokens({
+//   colors: {
+//     gold: {
+//       500: { value: "#D4AF37" },
+//     },
+//   },
+//   fonts: {
+//     heading: { value: "Inter, sans-serif" },
+//     body: { value: "Inter, sans-serif" },
+//   },
+// });
+
+// const config = defineConfig({
+//   theme: {
+//     tokens,
+//   },
+// });
+
+// export const system = createSystem(config);
