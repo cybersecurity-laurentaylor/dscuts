@@ -1,4 +1,4 @@
-import { Container, Heading, VStack, HStack, Text, Divider } from "@chakra-ui/react";
+import { Container, Heading, VStack, HStack, Text, Divider, Button } from "@chakra-ui/react";
 
 const pricing = [
 { name: "Men’s Haircut", price: "$40" },
@@ -22,6 +22,8 @@ Pricing
 </HStack>
 ))}
 </VStack>
+
+
 </Container>
 );
 }

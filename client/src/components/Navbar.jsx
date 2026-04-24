@@ -1,5 +1,5 @@
 import { Flex, HStack, Button, Text } from "@chakra-ui/react";
-
+import "../theme/Hero.css";
 export default function Navbar() {
 return (
 <Flex
@@ -18,7 +18,7 @@ justify="space-between"
 boxShadow="lg"
 >
 <Text fontSize="2xl" fontWeight="bold">
-D’s CUTZ
+<span className="i2">D’s</span> CUTZ
 </Text>
 
 <HStack spacing={8} display={{ base: "none", md: "flex" }}>

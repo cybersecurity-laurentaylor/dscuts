@@ -21,8 +21,8 @@ gold: {
 },
 },
 fonts: {
-heading: {value: "Allura, cursive"},
-body: {value: "Inter, sans-serif"},
+heading: {value: "Inter, sans-serif"},
+body: {value: "Inter, sans-serif"}
 },
     }
 }

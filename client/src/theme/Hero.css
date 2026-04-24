@@ -1,0 +1,5 @@
+
+.i2 { 
+    font-family: 'Allura';
+   font-size: clamp(3rem, 6vw, 5rem)
+}

@@ -2,6 +2,9 @@ import { Box, SimpleGrid, VStack, Heading, Text, Button, Image, Container } from
 import "@fontsource/inter/400.css";
 import "@fontsource/inter/600.css";
 import "@fontsource/inter/700.css";
+import "@fontsource/allura/400.css";
+import "../theme/pricing.css";
+import "../theme/Hero.css"
 
 export default function Hero() {
   return (
@@ -32,7 +35,7 @@ export default function Hero() {
       >
         <VStack align="start" spacing={6} color="white">
           <Heading color="gold.500" fontSize="4xl">
-            Elevate your style at D’s CUTZ
+            Elevate your style at <span className="i2">D's</span>  CUTZ
           </Heading>
           <Text color="gray.300" fontSize="lg">
             Premier grooming for the modern gentleman.
